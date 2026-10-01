@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dev.com | Landing Pages & Website Development</title>
+<meta name="description" content="Premium landing page and website development focused on performance, design and conversion.">
+<meta property="og:title" content="Dev.com | Landing Pages & Website Development">
+<meta property="og:description" content="Premium landing page and website development focused on performance, design and conversion.">
+<meta property="og:type" content="website">
+<style>
+:root{--bg:#07080c;--ink:#f2f4f8;--mute:#8d93a3;--line:rgba(255,255,255,.1);--a:#6ea8ff;--b:#b28dff;--wa:#25d366;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+,::before,*::after{box-sizing:inherit;margin:0}
+html,body{background:var(--bg);color:var(--ink);font-family:"Space Grotesk","Segoe UI",system-ui,sans-serif;overflow-x:hidden}
+body{line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+h1,h2,h3{line-height:.95;letter-spacing:-.03em;font-weight:700}
+.wrap{width:min(1200px,100% - 40px);margin-inline:auto}
+section{position:relative;padding:clamp(80px,14vw,170px) 0;overflow:hidden}
+.grad{background:linear-gradient(100deg,var(--a),var(--b),var(--a));background-size:200% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:sh 6s linear infinite}
+@keyframes sh{to{background-position:200% 0}}
+.big{font-size:clamp(2.4rem,8.5vw,7.5rem)}
+.h2{font-size:clamp(2rem,6vw,4.8rem)}
+.mute{color:var(--mute)}
+/* loader */
+#loader{position:fixed;inset:0;z-index:100;background:#05060a;display:grid;place-items:center}
+#loader b{font-size:clamp(2rem,9vw,5rem);letter-spacing:.05em}
+#loader .bar{width:min(260px,60vw);height:2px;background:var(--line);margin-top:20px}
+#loader .bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--a),var(--b))}
+#count{font-variant-numeric:tabular-nums;color:var(--mute);margin-top:10px;text-align:center}
